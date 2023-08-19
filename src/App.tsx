@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="">
+      <div className="font-inter">
         <Homepage />
       </div>
     </>
