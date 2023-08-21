@@ -7,14 +7,32 @@ import imageweb3desktop from "../assets/images/image-web-3-desktop.jpg";
 import list1img from "../assets/images/image-retro-pcs.jpg";
 import list2img from "../assets/images/image-top-laptops.jpg";
 import list3img from "../assets/images/image-gaming-growth.jpg";
+import iconmenuclose from "../assets/images/icon-menu-close.svg";
 
 const Homepage = () => {
   return (
     <>
-      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
+      <div className="grid pr-[s40px] pl-[15px] sm:pr-[30px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
         <div className=" flex justify-between w-auto h-auto pb-[20px]">
           <img className="" src={logo} alt="A W logo" />
-          <img className="" src={iconmenu} alt="A menu icon" />
+          <img className="md:hidden" src={iconmenu} alt="A menu icon" />
+          <ul className="flex flex-row sm:hidden md:flex">
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+              <a href="#home">Home</a>
+            </li>
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+              <a href="#new">New</a>
+            </li>
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+              <a href="#popular">Popular</a>
+            </li>
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+              <a href="#popular">Trending</a>
+            </li>
+            <li className="pl-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+              <a href="#popular">Categories</a>
+            </li>
+          </ul>
         </div>
         <div className="md:grid md:grid-cols-3 md:gap-x-5 md:w-auto ">
           <div className="md:col-span-2  ">
