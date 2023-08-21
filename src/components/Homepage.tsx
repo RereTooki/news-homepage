@@ -11,13 +11,13 @@ import list3img from "../assets/images/image-gaming-growth.jpg";
 const Homepage = () => {
   return (
     <>
-      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 border-4 bg-off-whites select-none">
+      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none">
         <div className=" flex justify-between w-auto h-auto pb-[20px]">
           <img className="" src={logo} alt="A W logo" />
           <img className="" src={iconmenu} alt="A menu icon" />
         </div>
-        <div className="md:grid md:grid-cols-3 md:gap-x-5 md:grid-rowsd-2 md:w-auto ">
-          <div className="md:col-span-2 ">
+        <div className="md:grid md:grid-cols-3 md:gap-x-5 md:w-auto ">
+          <div className="md:col-span-2  ">
             <div className="w-fit pb-[20px] ">
               <picture>
                 <source media="(min-width: 720px)" srcSet={imageweb3desktop} />
@@ -53,7 +53,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <div className="md:col-start-3 md:row-span-2 md:w-auto pb-[25px] pt-[10px] px-[25px] h-auto divide-y divide-grayish-blues flex flex-col bg-very-dark-blues">
+          <div className="md:col-start-3 md:w-auto pb-[25px] pt-[10px] px-[25px] h-auto divide-y divide-grayish-blues flex flex-col bg-very-dark-blues">
             <div>
               <h1 className="text-soft-oranges text-[35px] font-bold pb-[25px]">
                 New
@@ -85,7 +85,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="md:flex md:flex-row pb-[50px]">
+        <div className="md:flex md:flex-row pb-[10px]">
           <div className="w-auto h-auto flex flex-row pt-[50px] pb-[20px]">
             <img
               className="w-[25%] md:w-[30%] h-[135px]"
@@ -140,6 +140,20 @@ const Homepage = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="attribution md:whitespace-nowrap">
+          Challenge by{" "}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a
+            href="https://linkedin.com/in/rerel-oluwa-tooki-b53396253/"
+            target="_blank"
+          >
+            Rere Tooki
+          </a>
+          .
         </div>
       </div>
     </>
