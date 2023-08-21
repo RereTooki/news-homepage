@@ -17,8 +17,8 @@ const Homepage = () => {
           <img className="" src={iconmenu} alt="A menu icon" />
         </div>
         <div>
-          <div className="md:grid md:grid-cols-2 md:grid-rows-2 md:w-3/5 ">
-            <div className="w-fit h-auto md:h-fit pb-[20px] md:col-span-2">
+          <div className="md:grid md:grid-cols-2 md:grid-rows-2 md:w-auto ">
+            <div className="w-fit  pb-[20px] md:col-span-2  md:items-stretch">
               <picture>
                 <source media="(min-width: 710px)" srcSet={imageweb3desktop} />
                 <img
