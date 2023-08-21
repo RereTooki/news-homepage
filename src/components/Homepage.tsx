@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
     <>
       <div className="grid pr-[s40px] px-[35px] sm:spr-[30px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
-        <div className=" flex justify-between w-auto h-auto pb-[20px]">
+        <div className=" flex justify-between w-auto h-auto pt-[10px] pb-[50px]">
           <img className="" src={logo} alt="A W logo" />
           <img className="md:hidden" src={iconmenu} alt="A menu icon" />
           <ul className="flex flex-row vsm:hidden sm:hidden md:flex">
