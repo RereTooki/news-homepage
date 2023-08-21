@@ -1,4 +1,3 @@
-import React from "react";
 import "../App.css";
 import logo from "../assets/images/logo.svg";
 import iconmenu from "../assets/images/icon-menu.svg";
@@ -7,7 +6,6 @@ import imageweb3desktop from "../assets/images/image-web-3-desktop.jpg";
 import list1img from "../assets/images/image-retro-pcs.jpg";
 import list2img from "../assets/images/image-top-laptops.jpg";
 import list3img from "../assets/images/image-gaming-growth.jpg";
-import iconmenuclose from "../assets/images/icon-menu-close.svg";
 
 const Homepage = () => {
   return (
