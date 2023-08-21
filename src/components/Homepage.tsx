@@ -11,8 +11,8 @@ import list3img from "../assets/images/image-gaming-growth.jpg";
 const Homepage = () => {
   return (
     <>
-      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none overflow-hidden">
-        <div className=" flex justify-between w-auto h-auto pb-[20px] overflow-hidden">
+      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
+        <div className=" flex justify-between w-auto h-auto pb-[20px]">
           <img className="" src={logo} alt="A W logo" />
           <img className="" src={iconmenu} alt="A menu icon" />
         </div>
