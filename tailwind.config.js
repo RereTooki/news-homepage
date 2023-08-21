@@ -9,7 +9,7 @@ export default {
     screens: {
       sm: '375px',
       md: '925px',
-      lg: '1440px',
+      lg: '1083px',
       xl: '1540px',
     },
 

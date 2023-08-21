@@ -11,7 +11,7 @@ import list3img from "../assets/images/image-gaming-growth.jpg";
 const Homepage = () => {
   return (
     <>
-      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 border-4 bg-off-whites">
+      <div className="grid pr-[s40px] px-[15px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 border-4 bg-off-whites select-none">
         <div className=" flex justify-between w-auto h-auto pb-[20px]">
           <img className="" src={logo} alt="A W logo" />
           <img className="" src={iconmenu} alt="A menu icon" />
@@ -96,7 +96,7 @@ const Homepage = () => {
               <h1 className="text-grayish-blues text-[30px] font-bold pb-[25pxs]">
                 01
               </h1>
-              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] whitespace-nowrap font-bold hover:text-soft-reds">
+              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] lg:text-[15px] whitespace-nowrap font-bold hover:text-soft-reds">
                 Resolving Retro PCs
               </h2>
               <p className="text-grayish-blues text-[15px] ">
@@ -104,7 +104,7 @@ const Homepage = () => {
               </p>
             </div>
           </div>
-          <div className="w-auto h-auto flex flex-row pb-[20px] md:pt-[50px]">
+          <div className="w-auto h-auto md:pl-[5px] flex flex-row pb-[20px] md:pt-[50px]">
             <img
               className="w-[25%] md:w-[35%] h-[135px]"
               src={list2img}
@@ -114,7 +114,7 @@ const Homepage = () => {
               <h1 className="text-grayish-blues text-[30px] font-bold pb-[25pxs]">
                 02
               </h1>
-              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] whitespace-nowrap font-bold hover:text-soft-reds">
+              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] lg:text-[15px] whitespace-nowrap font-bold hover:text-soft-reds">
                 Top 10 Laptops of 2022
               </h2>
               <p className="text-grayish-blues text-[15px] ">
@@ -122,7 +122,7 @@ const Homepage = () => {
               </p>
             </div>
           </div>
-          <div className="w-auto h-auto flex flex-row md:pt-[50px]">
+          <div className="w-auto h-auto md:pl-[5px] flex flex-row md:pt-[50px]">
             <img
               className="w-[25%] md:w-[55%] h-[135px]"
               src={list3img}
@@ -132,7 +132,7 @@ const Homepage = () => {
               <h1 className="text-grayish-blues text-[30px] font-bold pb-[25pxs]">
                 03
               </h1>
-              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] whitespace-nowrap font-bold hover:text-soft-reds">
+              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] lg:text-[15px] whitespace-nowrap font-bold hover:text-soft-reds">
                 The Growth of Gaming
               </h2>
               <p className="text-grayish-blues text-[15px] ">
