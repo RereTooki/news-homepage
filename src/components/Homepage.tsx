@@ -37,16 +37,8 @@ const Homepage = () => {
             <div className="w-fit pb-[20px] ">
               <picture>
                 <source media="(min-width: 720px)" srcSet={imageweb3desktop} />
-                <img
-                  src={imageweb3}
-                  alt=""
-                  className="md:w-full"
-                  //   width="screen"
-                  //   height="600"
-                  //   class="main__header-image"
-                />
+                <img src={imageweb3} alt="" className="md:w-full" />
               </picture>
-              {/* <img className="" src={imageweb3} alt="A web 3 image" /> */}
             </div>
             <div className="md:flex md:flex-row">
               <div className=" md:w-[50%] md:pr-[10px] w-auto pb-[10px] h-auto text-very-dark-blues leading-[43px] text-[42px] font-bold">
