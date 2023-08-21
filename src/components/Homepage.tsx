@@ -88,7 +88,7 @@ const Homepage = () => {
         <div className="md:flex md:flex-row pb-[50px]">
           <div className="w-auto h-auto flex flex-row pt-[50px] pb-[20px]">
             <img
-              className="w-[25%] h-[135px]"
+              className="w-[25%] md:w-[30%] h-[135px]"
               src={list1img}
               alt="A retro PC"
             />
@@ -96,7 +96,7 @@ const Homepage = () => {
               <h1 className="text-grayish-blues text-[30px] font-bold pb-[25pxs]">
                 01
               </h1>
-              <h2 className="text-very-dark-blues text-[18px] md:text-[14px] whitespace-nowrap font-bold hover:text-soft-reds">
+              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] whitespace-nowrap font-bold hover:text-soft-reds">
                 Resolving Retro PCs
               </h2>
               <p className="text-grayish-blues text-[15px] ">
@@ -106,7 +106,7 @@ const Homepage = () => {
           </div>
           <div className="w-auto h-auto flex flex-row pb-[20px] md:pt-[50px]">
             <img
-              className="w-[25%] h-[135px]"
+              className="w-[25%] md:w-[35%] h-[135px]"
               src={list2img}
               alt="A retro PC"
             />
@@ -114,7 +114,7 @@ const Homepage = () => {
               <h1 className="text-grayish-blues text-[30px] font-bold pb-[25pxs]">
                 02
               </h1>
-              <h2 className="text-very-dark-blues text-[18px] md:text-[14px] whitespace-nowrap font-bold hover:text-soft-reds">
+              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] whitespace-nowrap font-bold hover:text-soft-reds">
                 Top 10 Laptops of 2022
               </h2>
               <p className="text-grayish-blues text-[15px] ">
@@ -124,7 +124,7 @@ const Homepage = () => {
           </div>
           <div className="w-auto h-auto flex flex-row md:pt-[50px]">
             <img
-              className="w-[25%] h-[135px]"
+              className="w-[25%] md:w-[55%] h-[135px]"
               src={list3img}
               alt="A retro PC"
             />
@@ -132,7 +132,7 @@ const Homepage = () => {
               <h1 className="text-grayish-blues text-[30px] font-bold pb-[25pxs]">
                 03
               </h1>
-              <h2 className="text-very-dark-blues text-[18px] md:text-[14px] whitespace-nowrap font-bold hover:text-soft-reds">
+              <h2 className="text-very-dark-blues text-[18px] md:text-[12px] whitespace-nowrap font-bold hover:text-soft-reds">
                 The Growth of Gaming
               </h2>
               <p className="text-grayish-blues text-[15px] ">
