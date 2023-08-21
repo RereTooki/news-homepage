@@ -141,7 +141,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="attribution md:whitespace-nowrap">
+        <div className="attribution pb-[20px] sm:text-[13px] whitespace-nowrap">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
