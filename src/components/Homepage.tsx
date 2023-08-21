@@ -10,11 +10,11 @@ import list3img from "../assets/images/image-gaming-growth.jpg";
 const Homepage = () => {
   return (
     <>
-      <div className="grid pr-[s40px] pl-[15px] sm:pr-[30px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
+      <div className="grid pr-[s40px] px-[35px] sm:spr-[30px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
         <div className=" flex justify-between w-auto h-auto pb-[20px]">
           <img className="" src={logo} alt="A W logo" />
           <img className="md:hidden" src={iconmenu} alt="A menu icon" />
-          <ul className="flex flex-row sm:hidden md:flex">
+          <ul className="flex flex-row vsm:hidden sm:hidden md:flex">
             <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
               <a href="#home">Home</a>
             </li>
@@ -149,7 +149,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="attribution pb-[20px] sm:text-[13px] md:text-[17px] md:font-normal whitespace-nowrap">
+        <div className="attribution pb-[20px]  sm:text-[13px] md:text-[17px] md:font-normal md:whitespace-nowrap">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
