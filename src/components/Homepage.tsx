@@ -45,7 +45,7 @@ const Homepage = () => {
                 <h1>The Bright Future of Web 3.0?</h1>
               </div>
               <div className="md:w-[50%] w-auto h-auto">
-                <p className="text-black/50 pb-[20px]">
+                <p className="text-black/80 pb-[20px]">
                   We dive into the next evolution of the web that claims to put
                   the power of the platforms back into the hands of the people.
                   But is it really fulfilling its promise?
@@ -107,7 +107,7 @@ const Homepage = () => {
               <h2 className="text-very-dark-blues text-[18px] md:text-[12px] lg:text-[15px] whitespace-nowrap font-bold hover:text-soft-reds">
                 Resolving Retro PCs
               </h2>
-              <p className="text-black/50 text-[15px] ">
+              <p className="text-black/80 text-[15px] ">
                 What happens when old PCs are given modern upgrades?
               </p>
             </div>
@@ -125,7 +125,7 @@ const Homepage = () => {
               <h2 className="text-very-dark-blues text-[18px] md:text-[12px] lg:text-[15px] whitespace-nowrap font-bold hover:text-soft-reds">
                 Top 10 Laptops of 2022
               </h2>
-              <p className="text-black/50  text-[15px] ">
+              <p className="text-black/80  text-[15px] ">
                 Our best picks for various needs and budgets.
               </p>
             </div>
@@ -143,7 +143,7 @@ const Homepage = () => {
               <h2 className="text-very-dark-blues text-[18px] md:text-[12px] lg:text-[15px] whitespace-nowrap font-bold hover:text-soft-reds">
                 The Growth of Gaming
               </h2>
-              <p className="text-black/50 text-[15px] ">
+              <p className="text-black/80 text-[15px] ">
                 How the pandemic has sparked fresh opportunities.
               </p>
             </div>
