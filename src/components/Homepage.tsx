@@ -1,33 +1,71 @@
 import "../App.css";
 import logo from "../assets/images/logo.svg";
 import iconmenu from "../assets/images/icon-menu.svg";
+import iconmenuclose from "../assets/images/icon-menu-close.svg";
 import imageweb3 from "../assets/images/image-web-3-mobile.jpg";
 import imageweb3desktop from "../assets/images/image-web-3-desktop.jpg";
 import list1img from "../assets/images/image-retro-pcs.jpg";
 import list2img from "../assets/images/image-top-laptops.jpg";
 import list3img from "../assets/images/image-gaming-growth.jpg";
+import { useState } from "react";
 
 const Homepage = () => {
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <>
+      {isVisible && (
+        <div className="bg-white md:hidden w-[45%] nsm:w-[40%] h-screen fixed top-0 right-0 select-none ">
+          <div className="flex justify-between">
+            <div></div>
+            <img
+              onClick={() => setIsVisible(false)}
+              className="pt-[30px] pr-[20px] cursor-pointer hover:animate-pulse"
+              src={iconmenuclose}
+              alt="A clos button"
+            />
+          </div>
+          <ul className="flex flex-col">
+            <li className="px-[20px] pt-[80px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
+              <a href="#home">Home</a>
+            </li>
+            <li className="px-[20px] pt-[20px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
+              <a href="#new">New</a>
+            </li>
+            <li className="px-[20px] pt-[20px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
+              <a href="#popular">Popular</a>
+            </li>
+            <li className="px-[20px] pt-[20px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
+              <a href="#popular">Trending</a>
+            </li>
+            <li className="pl-[20px] pt-[20px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
+              <a href="#popular">Categories</a>
+            </li>
+          </ul>
+        </div>
+      )}
       <div className="grid pr-[s40px] px-[35px] sm:spr-[30px] md:px-[55px] pt-[20px] overflow-hidden w-screen h-fit grid-cols-1 bg-off-whites select-none ">
         <div className=" flex justify-between w-auto h-auto pt-[10px] pb-[50px]">
           <img className="" src={logo} alt="A W logo" />
-          <img className="md:hidden" src={iconmenu} alt="A menu icon" />
+          <img
+            onClick={() => setIsVisible(true)}
+            className="md:hidden cursor-pointer"
+            src={iconmenu}
+            alt="A menu icon"
+          />
           <ul className="flex flex-row vsm:hidden sm:hidden md:flex">
-            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
               <a href="#home">Home</a>
             </li>
-            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
               <a href="#new">New</a>
             </li>
-            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
               <a href="#popular">Popular</a>
             </li>
-            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+            <li className="px-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
               <a href="#popular">Trending</a>
             </li>
-            <li className="pl-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds">
+            <li className="pl-[20px] pt-[10px] text-very-dark-blues hover:text-soft-reds hover:animate-pulse">
               <a href="#popular">Categories</a>
             </li>
           </ul>
@@ -41,7 +79,7 @@ const Homepage = () => {
               </picture>
             </div>
             <div className="md:flex md:flex-row">
-              <div className=" md:w-[50%] md:pr-[10px] w-auto pb-[10px] h-auto text-very-dark-blues leading-[43px] text-[42px] font-bold">
+              <div className=" md:w-[50%] md:pr-[10px] w-auto pb-[10px] h-auto text-very-dark-blues leading-[58px] text-[52px] font-bold">
                 <h1>The Bright Future of Web 3.0?</h1>
               </div>
               <div className="md:w-[50%] w-auto h-auto">
@@ -52,7 +90,7 @@ const Homepage = () => {
                 </p>
                 <div className=" pb-[50px]">
                   <button
-                    className="text-off-whites w-auto py-[10px] px-[20px] tracking-widest bg-soft-reds hover:bg-very-dark-blues "
+                    className="text-off-whites w-auto py-[10px] px-[20px] tracking-widest bg-soft-reds hover:bg-very-dark-blues hover:animate-pulse "
                     type="submit"
                   >
                     READ MORE
