@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <>
       {isVisible && (
-        <div className="bg-white md:hidden w-3/6 nsm:w-[40%] h-screen fixed top-0 right-0 select-none outline-none">
+        <div className="bg-white md:hidden w-3/6 nsm:w-[40%] h-screen fixed top-0 right-0 select-none hover:outline-none focus:outline-none">
           <div className="flex justify-between">
             <div></div>
             <img
